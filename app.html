@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./common.js"></script>
+    <script src="./pages.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1781696411-logo-desktop-532c3dd8fa.svg" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Wildies Casino APP — Mobile Access to Slots, Live Casino, and Sportsbook</title>
+    <meta name="description"
+          content="Wildies Casino APP gives browser-based mobile access to 2,584 games, live casino, sportsbook, bonuses, tournaments, GBP payments, and withdrawals from £20.">
+    <link rel="canonical" href="https://wildies-online.com/app">
+    <meta property="og:title" content="Wildies Casino APP — Mobile Access to Slots, Live Casino, and Sportsbook">
+    <meta property="og:description"
+          content="Wildies Casino APP gives browser-based mobile access to 2,584 games, live casino, sportsbook, bonuses, tournaments, GBP payments, and withdrawals from £20.">
+    <meta property="og:url" content="https://wildies-online.com/app">
+    <meta property="og:site_name" content="Wildies Casino APP — Mobile Access to Slots, Live Casino, and Sportsbook">
+    <meta property="og:locale" content="en-GB">
+    <meta property="og:image" content="_assets/images/1781696401-startovaia-kartinka-dlia-onlain-kazino-stavki-na-spo-4.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="wildies-online.com/app">
+    <meta name="twitter:title" content="Wildies Casino APP — Mobile Access to Slots, Live Casino, and Sportsbook">
+    <meta name="twitter:description"
+          content="Wildies Casino APP gives browser-based mobile access to 2,584 games, live casino, sportsbook, bonuses, tournaments, GBP payments, and withdrawals from £20.">
+    <meta name="twitter:image" content="_assets/images/1781696401-startovaia-kartinka-dlia-onlain-kazino-stavki-na-spo-4.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1781696404-favicon-5c3bda0b20-b48bf13559.ico" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="en-GB">
+    <link rel="apple-touch-icon" href="_assets/images/1781696385-favicon-5c3bda0b20-b48bf13559.ico" sizes="96x96">
+    <link rel="icon" href="_assets/images/1781696385-favicon-5c3bda0b20-b48bf13559.ico" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1781696454-startovaia-kartinka-dlia-onlain-kazino-stavki-na-spo-4.webp" as="image" fetchpriority="high">
+
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#079455"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#715BFF"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#079455"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#079455"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#715BFF"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#ffffff"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+    <header class="header" id="top">
+        <div class="headerBlock">
+            <div class="headerLogoContainer"><a href="/" aria-label="Main page"><img class="header__logo logo"
+                                                                                                     src="_assets/images/1781696411-logo-desktop-532c3dd8fa.svg" alt="Wildies Logo" /></a></div>
+
+            <div class="navBlockMain">
+
+                <!-- Main Navigation -->
+                <nav>
+                    <button class="hamburger" aria-label="Toggle navigation menu">
+                        <span></span>
+                    </button>
+
+                    <ul class="nav__list nav__list--header">
+
+                        <li><a href="index">index</a></li>
+                        <li><a href="app">App</a></li>
+                        <li><a href="bonuses">Bonuses</a></li>
+                        <li><a href="terms">Terms</a></li>
+                        <li><a href="privacy">Privacy</a></li>
+                        <li><a href="faq">FAQ</a></li>
+
+                    </ul>
+                </nav>
+                <!-- CTA buttons -->
+                <div class="btn__list">
+
+                    <div class="nav__item nav__itemLarge">
+                        <a
+                                class="nav__link nav__linkLarge"
+                                target="_blank"
+                                href="casino.html?id=example-offer-id"
+                                aria-label="Play Now"
+                                id="navPlayNow"
+                        >
+                            Play Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exclusive welcome offer of</p>
+                            <p class="heroText heroTextMobile">Exclusive welcome bonus of</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Play game"><span
+                            class="heroButton btn btn--large">Claim Bonus</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Wildies Casino APP — Mobile Casino, Live Games, and Sports Betting in Your Browser</h1>
+            </div>
+        </section>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Mobile Access to the Wildies</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;">
+Wildies Casino Mobile Access and App Experience
+</h3>
+<p>
+Wildies Casino runs through a responsive mobile version, so our casino does not require a mandatory native app download. We built mobile access around the browser, allowing users to open their account from a smartphone or tablet and continue with the main platform features. Slots, live casino, table games, crash games, bingo, keno, scratch cards, sportsbook, and eSports are available through the mobile interface. The layout adjusts to smaller screens, keeping the lobby, cashier, bonus area, and account profile practical to use. Our browser-based mobile casino format means players do not need to rely on an app store to access updated games or promotions. This approach helps us refresh the game lobby, payment options, tournament pages, and account tools without asking users to install a separate version. Wildies Casino mobile access is suitable for shorter sessions, balance checks, bonus tracking, and tournament monitoring. The cashier supports GBP payments, available deposit methods, and withdrawal requests from mobile devices. Game categories, search tools, and provider filters help users move through the lobby with fewer steps. Our casino is designed for modern iOS and Android devices using an updated mobile browser. For live casino and sportsbook use, a stable Wi-Fi, 4G, or 5G connection gives the smoothest experience. Mobile account tools also include limits, safer gambling settings, and live chat support.
+</p>
+<br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+How the Wildies Casino Mobile Version Works
+</h3>
+<p>
+The Wildies Casino mobile version opens directly in a browser and keeps the core structure of our desktop platform. After login, users can access the game lobby, sportsbook, live casino, cashier, bonuses, tournaments, and profile area. We keep one account balance across the platform, so casino games and betting markets can be managed from the same mobile session, subject to account rules. Mobile play includes slots, live roulette, live blackjack, baccarat, video poker, crash games, bingo, keno, scratch cards, jackpot games, and sports markets. Navigation is organised around categories, search, and quick lobby sections, making it easier to find games on smaller screens. The cashier supports deposits, withdrawal requests, and payment method checks from mobile devices. The bonus area shows welcome rewards, free spins, reload offers, sports free bets, and wagering progress. Live chat can be opened from mobile, while email remains useful for longer account or verification questions.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Available Mobile Functions
+</h4>
+
+ <ul>
+            <li>• Account login and profile management.</li>
+            <li>• Balance deposits and withdrawal requests.</li>
+            <li>• Bonus, tournament, and leaderboard tracking.</li>
+            <li>• Limit settings and safer gambling tools.</li>
+            <li>• Live chat access from a mobile device.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Available Games and Betting
+</h4>
+
+ <ul>
+            <li>• Slots, jackpot games, and bonus buy titles.</li>
+            <li>• Live casino games, including roulette, blackjack, and baccarat.</li>
+            <li>• RNG table games, including poker, video poker, craps, and dice.</li>
+            <li>• Crash games, bingo, keno, and scratch cards.</li>
+            <li>• Sportsbook and eSports markets.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Wildies Casino Supported Devices and Mobile Requirements
+</h3>
+<p>
+Wildies Casino mobile access is designed for modern smartphones and tablets running iOS or Android. A current browser such as Safari, Chrome, Edge, or another compatible mobile browser is usually enough to use our casino. No mandatory app installation is required because access runs through the website and responsive interface. For slots and table games, a stable mobile connection is normally sufficient, while live casino and sportsbook activity work best on reliable Wi-Fi, 4G, or 5G. JavaScript and cookies should be enabled so login, game loading, cashier tools, and account settings work correctly. If a game does not open, refreshing the page, clearing the cache, or checking provider compatibility can help. For payments and verification uploads, we recommend using a secure connection and a personal device.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Supported Devices
+</h4>
+
+ <ul>
+            <li>• iOS smartphones with an updated Safari or compatible browser.</li>
+            <li>• Android smartphones with Chrome, Edge, or another modern browser.</li>
+            <li>• iPad and Android tablets with stable mobile access.</li>
+        </ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+Network Requirements
+</h4>
+
+ <ul>
+            <li>• Wi-Fi, 4G, or 5G for stable performance.</li>
+            <li>• Stronger connection recommended for live casino and sportsbook use.</li>
+            <li>• Secure network recommended for payments and document uploads.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Wildies Casino Mobile Security, Privacy, and Data Protection
+</h3>
+<p>
+At Wildies Casino, we treat mobile account security with the same care as desktop access. Account protection is supported by identity checks, payment method review, and verification procedures, especially before withdrawals. Personal information is handled through standard security measures, including protected connections, account review, and controlled access to financial actions. We may request proof of identity, proof of address, payment method proof, and source of funds when account processing requires it. These checks help confirm account ownership, reduce unauthorised activity, and support correct payout handling. Users should keep passwords private, avoid sharing login details, and use only payment methods registered in their own name. The mobile version also includes safer gambling tools that support deposit limits, session control, cooling-off, and self-exclusion requests.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Core Protection Features
+</h4>
+
+ <ul>
+            <li>• Identity and payment verification when required.</li>
+            <li>• Protected connection for login, cashier, and account access.</li>
+            <li>• Account-name and payment-method matching checks.</li>
+            <li>• Limit settings and safer gambling controls.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Wildies Casino Mobile Bonuses
+</h3>
+<p>
+The Wildies Casino mobile version allows users to view, activate, and track bonuses through the same account used on desktop. We keep access to the welcome package, free spins, reload promotions, sports free bets, tournaments, and loyalty rewards in the mobile account area. The mobile bonus section can show wagering progress, promotion status, expiry details, and available rewards. Before activation, users should review the terms because casino bonuses, free spins, and sports free bets may follow different rules.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+Wildies Casino Mobile Bonus List
+</h4>
+
+ <ul>
+            <li>• First deposit — 150% up to £1,000 plus 100 free spins, with a £20 minimum deposit.</li>
+            <li>• Second deposit — 75% up to £750 plus 50 free spins as part of the welcome package.</li>
+            <li>• Third deposit — 75% up to £1,000, with separate wagering conditions.</li>
+            <li>• Fourth deposit — 100% up to £500 within the opening bonus sequence.</li>
+            <li>• Casino welcome package — up to 400% and 150 free spins across early deposits.</li>
+            <li>• Tuesday Casino Reload — a recurring casino offer for active users.</li>
+            <li>• Weekend Bonus — weekend-focused promotion with campaign-specific terms.</li>
+            <li>• Monday Sports Free Bet — sportsbook reward for selected betting activity.</li>
+            <li>• Loyalty programme — coins, ranks, and prizes from qualifying real-money play.</li>
+            <li>• VIP programme — additional account opportunities for qualifying users.</li>
+        </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Wildies Casino Mobile Platform Advantages
+</h3>
+<p>
+The Wildies Casino mobile platform is built for users who want casino games, sportsbook markets, bonuses, and payments inside one responsive interface. We do not treat mobile access as a reduced version of the account; the key sections remain available through the browser. This format makes it easier to open the lobby, check the balance, review promotions, and move between game categories.
+</p>
+<br>
+<table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px">
+  <thead>
+    <tr style="background-color: #715BFF;">
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Advantage</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Available Feature</th>
+      <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Mobile Detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>No instal&shy;lation</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Browser access</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">No separate app download required</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>One account</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Casino and sports&shy;book</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Shared balance for main sections</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Game lobby</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">2,584 games</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Slots, live casino, crash games, and betting</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Mobile cashier</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Deposits and with&shy;draw&shy;als</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">GBP payments and cashout from £20</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Bonus area</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Welcome package and reloads</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Wagering progress can be reviewed</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Support</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Live chat and email</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Help with account, bonuses, and payments</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Play control</strong></td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Limits and breaks</td>
+      <td style="border: 1px solid #ffffff; padding: 10px;">Safer gambling tools in the profile</td>
+    </tr>
+  </tbody>
+</table>
+<br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>Frequently Asked Questions</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="is_my_balance_shared_between_desktop_and_mobile"/><label
+                            class="faqLabel" for="is_my_balance_shared_between_desktop_and_mobile">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Is my balance shared between desktop and mobile? </span></label>
+                        <div class="faqContent">
+                            <p>Yes, the balance is linked to the account, not the device. After login, users see the same profile from phone, tablet, or computer.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="can_i_complete_verification_from_my_phone"/><label
+                            class="faqLabel" for="can_i_complete_verification_from_my_phone">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Can I complete verification from my phone? </span></label>
+                        <div class="faqContent">
+                            <p>Yes, documents can usually be uploaded from a mobile device when requested in the account area or by support. Images should be clear, complete, and match the profile details.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="do_free_spins_work_on_mobile"/><label
+                            class="faqLabel" for="do_free_spins_work_on_mobile">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Do free spins work on mobile? </span></label>
+                        <div class="faqContent">
+                            <p>Yes, if the eligible game and promotion support mobile play. Users should check the promotion terms to see which titles are included.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="can_i_place_sports_bets_from_the_mobile_version"/><label
+                            class="faqLabel" for="can_i_place_sports_bets_from_the_mobile_version">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Can I place sports bets from the mobile version? </span></label>
+                        <div class="faqContent">
+                            <p>Yes, sportsbook access is available through the mobile account. Users can browse markets, add selections to the bet slip, and review bet status.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="is_it_safe_to_use_wildies_casino_on_public_wifi"/><label
+                            class="faqLabel" for="is_it_safe_to_use_wildies_casino_on_public_wifi">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Is it safe to use Wildies Casino on public Wi-Fi? </span></label>
+                        <div class="faqContent">
+                            <p>Browsing may be possible, but payments, login, and document uploads are better handled through a private secure network. This helps reduce the risk of exposing account data on shared connections.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://wildies-online.com/app" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1781696473-logo-desktop-532c3dd8fa.svg" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Wildies" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Wildies" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Wildies" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Wildies" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Wildies" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Wildies" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Wildies" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Wildies" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Wildies" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Wildies" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Wildies" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Wildies" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Wildies" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Wildies" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Wildies" /></div>
+            </div>
+        </div>
+        <div class="footerNavBlock">
+            <nav>
+                <ul class="nav__list--footer">
+
+                    <li class="footer__navItem"><a href="index">index</a></li>
+                    <li class="footer__navItem"><a href="app">App</a></li>
+                    <li class="footer__navItem"><a href="bonuses">Bonuses</a></li>
+                    <li class="footer__navItem"><a href="terms">Terms</a></li>
+                    <li class="footer__navItem"><a href="privacy">Privacy</a></li>
+                    <li class="footer__navItem"><a href="faq">FAQ</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Wildies </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Claim Bonus";
+    var welcomeBonusText = "Welcome bonus";
+    var bonusDetailsButtonText = "";
+    var playNowText = "";
+    var maximumAmountText = "";
+    var wagerText = "";
+    var bonusCodeText = "";
+    var depositText = "";
+    var casinoName = "Wildies";
+</script>
+
+</body>
+</html>
